@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="1675" height="575" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="201.24" cy="287" fill="#005075" id="svg_1" rx="201.24" ry="287.5"/>
+  <ellipse cx="455.72" cy="287" fill="#005075" id="svg_2" rx="201.24" ry="287.5"/>
+  <ellipse cx="710.2" cy="287" fill="#005075" id="svg_3" rx="201.24" ry="287.5"/>
+  <ellipse cx="964.68" cy="287" fill="#005075" id="svg_4" rx="201.24" ry="287.5"/>
+  <ellipse cx="1219.16" cy="287" fill="#005075" id="svg_5" rx="201.24" ry="287.5"/>
+  <ellipse cx="1473.63" cy="287" fill="#005075" id="svg_6" rx="201.24" ry="287.5"/>
+  <ellipse cx="-17.76" cy="287" fill="#005075" id="svg_7" rx="201.24" ry="287.5"/>
+  <ellipse cx="1715.24" cy="287" fill="#005075" id="svg_8" rx="201.24" ry="287.5"/>
+ </g>
+</svg>

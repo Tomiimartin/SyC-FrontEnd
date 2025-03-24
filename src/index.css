@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@media (min-width: 1024px) {
+    .custom-bg {
+      background-image: url('/fondo.svg');
+      background-size: cover;
+      background-position: center;
+    }
+  }

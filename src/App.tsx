@@ -1,18 +1,9 @@
-import Footer from "./components/Footer"
-import NavBar from "./components/NavBar"
+import { Outlet } from "react-router-dom";
 
 function App() {
-
-
   return (
-    <>
-      <div className="w-full min-h-screen px-2.5 sm:px-12 xl:px-40">
-        <NavBar/>
-      </div>
-
-      <Footer/>
-    </>
-  )
+    <Outlet />
+  );
 }
 
-export default App
+export default App;
