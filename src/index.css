@@ -5,4 +5,7 @@
       background-size: cover;
       background-position: center;
     }
-  }
+}
+.custom-shadow-card{
+  box-shadow: 4px 4px 0px #230F60, 10px 10px 0px #DCC8D8, 15px 15px 0px #000000;
+}

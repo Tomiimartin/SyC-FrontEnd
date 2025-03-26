@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-const años = ["primero", "segundo", "tercero", "cuarto", "quinto"];
+const años = ["Primero", "Segundo", "Tercero", "Cuarto", "Quinto"];
 
 export default function EnlacesAños() {
   return (
-    <ul className="flex justify-center gap-3 sm:gap-4 xl:gap-6 text-lg sm:text-xl xl:text-2xl font-medium z-10 text-white">
+    <ul className="flex justify-center gap-3 sm:gap-5 xl:gap-6 text-xl sm:text-2xl font-medium z-10 text-white">
       {años.map((año, index) => (
         <li key={index}>
           <Link to={`/${año}`} className="hover:text-gray-100 transition-all">
