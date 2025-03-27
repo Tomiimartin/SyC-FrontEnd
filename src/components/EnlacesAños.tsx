@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const años = ["Primero", "Segundo", "Tercero", "Cuarto", "Quinto"];
+const años = ["primero", "segundo", "tercero", "cuarto", "quinto"];
 
 export default function EnlacesAños() {
   return (
