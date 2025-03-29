@@ -11,13 +11,8 @@ function Index() {
       
       <div className="lg:order-1 rounded-lg px-2 py-6 text-lg md:text-xl lg:max-w-2xl bg-indigo-950 lg:bg-transparent mx-4 sm:mx-12 lg:mx-0">
         <p className="text-center px-4 text-white lg:text-start text-lg lg:text-xl 2xl:text-2xl">
-          Somos Milton Lezcano y Manuela Barrios D'Ambra, estudiantes de la
-          carrera de Medicina en la Universidad Nacional del Nordeste (UNNE).
-          Durante la pandemia empezamos a hacer apuntes digitales para
-          estudiar y comenzamos a compartirlos a través de nuestro instagram.
-          En esta página te compartimos todos nuestros apuntes para que te sea
-          un poco más llevadero estudiar durante la cursada. ¡Esperamos que te
-          sirvan!
+        Somos Seba y Caro, al igual que ustedes, somos estudiantes de Medicina en la Universidad Nacional del Nordeste (UNNE). Como parte de nuestro método de estudio, hicimos apuntes basados en capítulos de libros, guías y artículos científicos que fuimos leyendo. Esperamos que les sean útiles, ya sea para ampliar sus conocimientos o simplemente de repaso. 
+        Les compartimos con mucho cariño y les deseamos muchos éxitos !!.
         </p>
       </div>
     </div>
