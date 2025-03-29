@@ -12,10 +12,12 @@ export default function NavBar() {
 
       <EnlacesAños />
       
-      <FontAwesomeIcon
-        icon={faInstagram}
-        className="text-white text-3xl sm:text-4xl xl:text-4xl hover:text-gray-100 transition-color cursor-pointer"
-      />
+      <a href="https://www.instagram.com/syc.med/" target="_blank">
+        <FontAwesomeIcon
+          icon={faInstagram}
+          className="text-white text-3xl sm:text-4xl xl:text-4xl hover:text-gray-100 transition-color cursor-pointer"
+        />
+      </a>
     </div>
   );
 }
