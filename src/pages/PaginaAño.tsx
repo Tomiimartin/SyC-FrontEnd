@@ -53,8 +53,8 @@ export default function PaginaAño() {
           No hay apuntes para este año
         </p>
       ) : (
-        <div className="w-full mt-6 md:mt-10 xl:mt-16 px-7 md:px-22 xl:px-32">
-          <div className=" flex flex-wrap justify-center gap-8 md:gap-10 xl:gap-16">
+        <div className="w-full mt-6 md:mt-10 xl:mt-16 px-5 md:px-10 xl:px-48">
+          <div className=" flex flex-wrap justify-center gap-6 md:gap-10 xl:gap-16">
             {data?.data.map((apunte) => (
               <CardsMateria key={apunte.materia} data={apunte} />
             ))}
