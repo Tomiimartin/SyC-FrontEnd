@@ -3,7 +3,7 @@ import { CardsMateriaPromps } from "../types";
 export default function CardsMateria({data} : CardsMateriaPromps) {
   return (
     <a 
-        className="cursor-pointer flex flex-col justify-center w-full max-w-40 md:max-w-48 xl:max-w-64 gap-2.5 md:gap-3 xl:gap-4 p-3 md:p-4 xl:px-8 xl:py-5 border border-black bg-white rounded-xl custom-shadow-card hover:-translate-y-1 hover:bg-indigo-300 hover:text-white transition-all"
+        className="cursor-pointer flex flex-col justify-center items-center w-full max-w-40 md:max-w-48 xl:max-w-64 gap-2.5 md:gap-3 xl:gap-4 p-3 md:p-4 xl:px-8 xl:py-5 border border-black bg-white rounded-xl custom-shadow-card hover:-translate-y-1 hover:bg-indigo-300 hover:text-white transition-all"
         href={data.url}
         target="_blank"
     >

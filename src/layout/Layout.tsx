@@ -9,7 +9,7 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col justify-between">
       <NavBar/>
       
-      <main className="mt-26 sm:mt-28 mb-22">
+      <main className="mt-26 sm:mt-28 xl:mt-32 mb-22">
         <Outlet/>  
       </main>
 
