@@ -63,7 +63,7 @@ export default function PaginaAño() {
         </div>
       )}
 
-      {isError ? (<div className="text-2xl">Error al consultar la Base de Datos, Informar al contacto de SyC</div>) : ""}
+      {isError ? (<div className="px-2 text-lg md:text-2xl text-center">Error al consultar la "Base de Datos", Informar al contacto de SyC</div>) : ""}
     </div>
   );
 }

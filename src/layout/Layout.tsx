@@ -7,13 +7,13 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col justify-between">
-      <NavBar/>
+      <header> <NavBar/> </header>
       
       <main className="mt-26 sm:mt-28 xl:mt-32 mb-22">
         <Outlet/>  
       </main>
 
-      <Footer/>
+      <footer> <Footer/> </footer>
     </div>
   )
 }
