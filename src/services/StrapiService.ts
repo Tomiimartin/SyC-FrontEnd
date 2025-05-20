@@ -9,7 +9,7 @@ export async function getApuntes(año : string) {
     if (result.success) {
         return result.data
     }else{
-        console.log("Ocurrio un error en el llamado de la api ===",result.error);
+       throw new Error("Ocurrió un error en el llamado de la API");
     }
 }
 

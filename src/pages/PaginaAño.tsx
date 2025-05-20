@@ -13,7 +13,7 @@ const override: CSSProperties = {
 
 export default function PaginaAño() {
   const [loading, setLoading] = useState(true);
-
+  const [isError, setIsError] = useState(false);
   const [data, setData] = useState<Apunte>();
 
   const { year } = useParams<{ year: string }>();
@@ -23,10 +23,11 @@ export default function PaginaAño() {
     setData(undefined);
     const fetchData = async () => {
       try {
-        const data = await getApuntes(`${year}`);
-        setData(data);
+        const dataApi = await getApuntes(`${year}`);
+        setData(dataApi);
       } catch (error) {
         console.log(error);
+        setIsError(true)
       } finally {
         setLoading(false);
       }
@@ -61,6 +62,9 @@ export default function PaginaAño() {
           </div>
         </div>
       )}
+
+      {isError ? (<div className="text-2xl">Error al consultar la Base de Datos, Informar al contacto de SyC</div>) : ""}
     </div>
   );
 }
+//  return ()
