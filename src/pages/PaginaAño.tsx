@@ -51,7 +51,7 @@ export default function PaginaAño() {
 
       {data?.data.length === 0 ? (
         <p className="text-lg xl:text-2xl font-medium bg-indigo-950 w-full px-5 py-3 text-white text-center">
-          No hay apuntes para este año
+          Tenemos un error - Estamos trabajando en solucionarlo
         </p>
       ) : (
         <div className="w-full mt-6 md:mt-10 xl:mt-16 px-5 md:px-10 xl:px-48">
@@ -67,4 +67,3 @@ export default function PaginaAño() {
     </div>
   );
 }
-//  return ()
