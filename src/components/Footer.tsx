@@ -26,7 +26,7 @@ export default function Footer() {
 
       <div className="text-center">
         <p className="text-white text-sm xl:text-base font-medium">«© 2025  copyright SyC»</p>
-        <a href="https://github.com/Tomas-Martin-dev" target="_blank" className="text-white text-sm xl:text-base font-medium hover:text-gray-100 transition-color cursor-pointer">By Tomas-Martin.dev</a>
+        <a href="https://github.com/Tomiimartin" target="_blank" className="text-white text-sm xl:text-base font-medium hover:text-gray-100 transition-color cursor-pointer">By Tomas-Martin.dev</a>
       </div>
     </div>
   )
